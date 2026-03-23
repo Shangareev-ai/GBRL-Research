@@ -1,0 +1,37 @@
+# Data — large files tracked separately (DVC or manual)
+data/
+
+# Generated outputs
+runs/
+plots/
+archive/
+
+# Optuna SQLite studies — large binary, not useful in git history
+tests/*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+.env
+.venv
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / OS
+*.code-workspace
+.vscode/
+.idea/
+.DS_Store
+
+# Archives
+*.zip
+*.tar.gz
